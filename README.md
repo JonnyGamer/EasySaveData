@@ -16,7 +16,10 @@ enum SaveData {
     @UserDefault(key: "coins", defaultValue: 0)
     static var coins: Int
     
-    @UserDefault(key: "Mega Array", defaultValue: [[.init(repeating: [Bool](), count: 16)]])
+    @UserDefault(key: "Mega Array", defaultValue: [
+        [false, false, false, false],
+        [false, false, false],
+    ])
     static var superArray: [[Bool]]
 }
 ```
