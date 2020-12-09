@@ -21,6 +21,9 @@ enum SaveData {
         [false, false, false],
     ])
     static var superArray: [[Bool]]
+    
+    @UserDefault(key: "Current Level", defaultValue: 1)
+    static var currentLevel: Int
 }
 ```
 
