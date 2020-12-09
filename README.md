@@ -23,5 +23,5 @@ enum SaveData {
 
 ```swift
 SaveData.coins += 1
-SaveData.superArray[0][0] == false
+SaveData.superArray[0] == []
 ```
