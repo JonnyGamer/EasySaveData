@@ -15,9 +15,13 @@ struct UserDefault<T> {
 enum SaveData {
     @UserDefault(key: "coins", defaultValue: 0)
     static var coins: Int
+    
+    @UserDefault(key: "Mega Array", defaultValue: [[Int]]())
+    static var superArray: [[Int]]
 }
 ```
 
 ```swift
 SaveData.coins += 1
+SaveData.superArray = [[1, 2, 3], [4, 5, 6]]
 ```
