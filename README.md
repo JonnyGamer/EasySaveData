@@ -19,5 +19,5 @@ enum SaveData {
 ```
 
 ```swift
-coins += 1
+SaveData.coins += 1
 ```
